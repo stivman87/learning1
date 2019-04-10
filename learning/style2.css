@@ -1,0 +1,31 @@
+nav {
+	width: 660px;
+	border: 1px dashed blue;
+}
+.topmenu > li {
+	display: inline-block;
+	/*border: 1px solid green;*/
+	position: relative;
+}
+.submenu{
+	position: absolute;
+	display: none;
+}
+li:hover .submenu {
+	display: block;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: 10px 15px;
+	border: 1px solid gray;
+}
+a:hover {
+	background-color: yellow;
+}
