@@ -1,0 +1,20 @@
+let newCalc = document.getElementById('start'),
+    budgetVal1 = document.getElementsByClassName('budget-value'),
+    dayBudgetVal1 = document.getElementsByClassName('daybudget-value'),
+    levelVal1 = document.getElementsByClassName('level-value'),
+    expensesVal1 = document.getElementsByClassName('expenses-value'),
+    optionalExpensesVal1 = document.getElementsByClassName('optionalexpenses-value'),
+    incomeVal1 = document.getElementsByClassName('income-value'),
+    monthSavingsVal1  = document.getElementsByClassName('monthsavings-value'),
+    yearSavingsVal1 = document.getElementsByClassName('yearsavings-value'),
+    yearVal1 = document.getElementsByClassName('year-value'),
+    monthVal1 = document.getElementsByClassName('month-value'),
+    dayVal1 = document.getElementsByClassName('day-value'),
+    expensesItem = document.getElementsByClassName('expenses-item'),
+    expensesItemBtn = document.getElementsByTagName('button')[0],
+    optionalExpensesBtn = document.getElementsByTagName('button')[1],
+    countBudgetBtn = document.getElementsByTagName('button')[2],
+    optionalExpensesItem = document.querySelectorAll('.optionalexpenses-item');
+    // console.log(y);
+    let y = document.querySelector('div .title');
+    y.style.fontSize = '20px';
